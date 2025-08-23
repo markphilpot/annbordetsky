@@ -12,14 +12,15 @@ export default function Nav() {
   return (
     <nav className={"w-full sticky top-0 z-20 mb-12"}>
       <div className={"max-w-4xl mx-auto px-4"}>
-        <div className={"grid grid-cols-3 py-6"}>
-          <div className={"flex items-center"}>
+        <div className={"grid grid-cols-2 sm:grid-cols-3 py-6"}>
+          <div className={"flex justify-start items-center"}>
             <Logo />
           </div>
-          <div className={"flex justify-center items-center"}>
+
+          <div className={"flex justify-end sm:justify-center items-center"}>
             <Button
               variant={"link"}
-              className={cn({
+              className={cn("!px-2", {
                 "underline underline-offset-4 decoration-2 decoration-primary":
                   pathname === "/investor",
               })}
@@ -31,7 +32,7 @@ export default function Nav() {
             </Button>
             <Button
               variant={"link"}
-              className={cn({
+              className={cn("!px-2", {
                 "underline underline-offset-4 decoration-2 decoration-primary":
                   pathname === "/builder",
               })}
@@ -42,12 +43,8 @@ export default function Nav() {
               </Link>
             </Button>
           </div>
-          {/*<div className={"flex items-center gap-2"}>*/}
-          {/*  <Label className={"font-scp"}>Investor</Label>*/}
-          {/*  <Switch />*/}
-          {/*  <Label className={"font-scp"}>Builder</Label>*/}
-          {/*</div>*/}
-          <div className={"flex items-center justify-end"}>
+
+          <div className={"hidden sm:flex items-center justify-end"}>
             <ModeToggle />
           </div>
         </div>
