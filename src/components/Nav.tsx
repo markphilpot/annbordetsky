@@ -1,3 +1,57 @@
+"use client";
+
+import { ModeToggle } from "@/components/theme-toggle";
+import Logo from "@/components/Logo";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { cn } from "@/lib/utils";
+
 export default function Nav() {
-  return <nav className={"bg-purple-300"}>Navigation</nav>;
+  const pathname = usePathname();
+  return (
+    <nav className={"w-full sticky top-0 z-20 mb-12"}>
+      <div className={"max-w-4xl mx-auto px-4"}>
+        <div className={"grid grid-cols-3 py-6"}>
+          <div className={"flex items-center"}>
+            <Logo />
+          </div>
+          <div className={"flex justify-center items-center"}>
+            <Button
+              variant={"link"}
+              className={cn({
+                "underline underline-offset-4 decoration-2 decoration-primary":
+                  pathname === "/investor",
+              })}
+              asChild
+            >
+              <Link href={"/investor"} className={"font-scp"}>
+                Investor
+              </Link>
+            </Button>
+            <Button
+              variant={"link"}
+              className={cn({
+                "underline underline-offset-4 decoration-2 decoration-primary":
+                  pathname === "/builder",
+              })}
+              asChild
+            >
+              <Link href={"/builder"} className={"font-scp"}>
+                Builder
+              </Link>
+            </Button>
+          </div>
+          {/*<div className={"flex items-center gap-2"}>*/}
+          {/*  <Label className={"font-scp"}>Investor</Label>*/}
+          {/*  <Switch />*/}
+          {/*  <Label className={"font-scp"}>Builder</Label>*/}
+          {/*</div>*/}
+          <div className={"flex items-center justify-end"}>
+            <ModeToggle />
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
 }

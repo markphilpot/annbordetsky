@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Source_Code_Pro } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,7 +21,7 @@ const sourceCodePro = Source_Code_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "ann_b",
+  title: "ann·b",
   description: "Ann Bordetsky",
 };
 
@@ -38,7 +41,13 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <Nav />
+          <main
+            className={"font-scp w-full max-w-3xl mx-auto min-h-screen px-4"}
+          >
+            {children}
+          </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
