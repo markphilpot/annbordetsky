@@ -7,7 +7,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "pnpm lint:es && pnpm lint:tsc",
-    "lint:es": "next lint",
+    "lint:es": "pnpm eslint",
     "lint:tsc": "tsc --noemit",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "format:check": "prettier --list-different \"src/**/*.{js,jsx,ts,tsx}\"",
