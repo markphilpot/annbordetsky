@@ -1,6 +1,5 @@
 import Section from "@/components/Section";
 import Highlight from "@/components/Highlight";
-import { NotoV1FamilyManWomanGirlBoy } from "@/components/icons";
 
 export default function Home() {
   return (
@@ -29,12 +28,7 @@ export default function Home() {
             Specialize in category creating products and building into
             greenfield markets
           </li>
-          <li>
-            Live happily in SF Bay Area with my family{" "}
-            <NotoV1FamilyManWomanGirlBoy
-              className={"inline-block size-6 -mt-1"}
-            />
-          </li>
+          <li>Live happily in SF Bay Area with my family</li>
           <li>
             <strong>Berkeley</strong> undergrad and <strong>Stanford</strong>{" "}
             grad school, 4 years in DC / Policy in between
@@ -117,18 +111,19 @@ export default function Home() {
       <Section>
         <h2>how I work with founders</h2>
         <h4>
-          <Highlight>before it&apos;s obvious</Highlight>
+          <Highlight>before it’s obvious</Highlight>
         </h4>
         <p>
-          Investing at <em>seed</em> and <em>series A</em>, almost always in
-          founders building in emerging, high growth (big if true) markets with
-          a vision for a category defining application or platform company. Deep
-          conviction in founder market fit, product velocity and correct timing.
-          Post-investment, serve as a catalyst, anything I can do to help the
-          company reach escape velocity. No ask too small.
+          Investing at seed and series A, primarily in founders building in
+          emerging, high growth (big if true) markets with a vision for a
+          category defining application or platform company. Deep conviction in
+          founder market fit, product velocity, technical edge and correct
+          timing on the idea. Post-investment, focus on helping the founder
+          reach escape velocity (via network, intros, assists, visibility). I
+          also help technical founders find their key early business hires.
         </p>
         <h4>
-          <Highlight>before it&apos;s inevitable</Highlight>
+          <Highlight>before it’s inevitable</Highlight>
         </h4>
         <p>
           Partnering founders at the early-growth stage of company building once

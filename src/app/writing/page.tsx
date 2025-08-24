@@ -53,15 +53,16 @@ const writing = [
     "https://www.nea.com/blog/the-current-6-consumer-bottlenecks-in-mental-health",
   ],
   [
-    "2024-05-03",
-    "AI in Consumer: Generative Music",
-    "https://www.nea.com/blog/future-of-ai-generated-music-industry-artists-fans",
-  ],
-  [
     "2024-06-06",
     "Rewriting the Startup Playbook for the Age of AI",
     "https://www.nea.com/blog/4-trends-for-ai-startups-and-generative-ai-companies",
   ],
+  [
+    "2024-05-03",
+    "AI in Consumer: Generative Music",
+    "https://www.nea.com/blog/future-of-ai-generated-music-industry-artists-fans",
+  ],
+
   [
     "2024-03-28",
     "Investing in Perplexity AI: The End of Traditional Search",
@@ -91,7 +92,7 @@ const writing = [
 
 const talks = [
   [
-    "Oct 2025 (Soon)",
+    "Oct 2025",
     "TechCrunch Disrupt 2025 on Finding PMF",
     "https://techcrunch.com/2025/08/05/crack-the-code-to-startup-traction-with-insights-from-chef-robotics-nea-and-iconiq-at-techcrunch-disrupt-2025/",
   ],
@@ -120,7 +121,7 @@ export default function Writing() {
         <div className={"grid grid-cols-4"}>
           {writing.map(([date, title, link]) => (
             <Fragment key={title}>
-              <div className={"text-center"}>{date}</div>
+              <div className={"text-right mr-6"}>{date}</div>
               <div className={"col-span-3"}>
                 <a href={link}>{title}</a>
               </div>
@@ -133,7 +134,7 @@ export default function Writing() {
         <div className={"grid grid-cols-4"}>
           {talks.map(([date, title, link]) => (
             <Fragment key={title}>
-              <div className={"text-center"}>{date}</div>
+              <div className={"text-right mr-6"}>{date}</div>
               <div className={"col-span-3"}>
                 <a href={link}>{title}</a>
               </div>
