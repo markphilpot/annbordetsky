@@ -6,11 +6,18 @@ export default function Footer() {
     <footer className={"w-full py-2 sticky bottom-0 z-20 bg-background"}>
       <div className={"max-w-4xl mx-auto"}>
         <div className={"flex justify-center items-center gap-2"}>
-          <Button variant={"ghost"} size={"icon"}>
-            <Fa6BrandsSquareXTwitter />
+          <Button variant={"ghost"} size={"icon"} asChild>
+            <a href={"https://x.com/annbordetsky"} target={"_blank"}>
+              <Fa6BrandsSquareXTwitter />
+            </a>
           </Button>
-          <Button variant={"ghost"} size={"icon"}>
-            <Fa6BrandsLinkedin />
+          <Button variant={"ghost"} size={"icon"} asChild>
+            <a
+              href={"https://www.linkedin.com/in/annbordetsky/"}
+              target={"_blank"}
+            >
+              <Fa6BrandsLinkedin />
+            </a>
           </Button>
         </div>
       </div>

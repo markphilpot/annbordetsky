@@ -1,5 +1,7 @@
 import Section from "@/components/Section";
 import Highlight from "@/components/Highlight";
+import SkewHighlight from "@/components/SkewHighlight";
+import { NotoV1FamilyManWomanGirlBoy } from "@/components/icons";
 
 export default function Home() {
   return (
@@ -27,7 +29,12 @@ export default function Home() {
             Specialize in category creating products and building into
             greenfield markets
           </li>
-          <li>Live happily in SF Bay Area with my family :family:</li>
+          <li>
+            Live happily in SF Bay Area with my family{" "}
+            <NotoV1FamilyManWomanGirlBoy
+              className={"inline-block size-6 -mt-1"}
+            />
+          </li>
           <li>
             Berkeley undergrad and Stanford grad school, 4 years in DC / Policy
             in between
@@ -64,7 +71,9 @@ export default function Home() {
         </ul>
       </Section>
       <Section>
-        <h2>operating principles</h2>
+        <h2>
+          <Highlight>operating principles</Highlight>
+        </h2>
         <ol>
           <li>
             When you commit, give it 200%. Bring a founder mentality regardless
@@ -133,7 +142,7 @@ export default function Home() {
           strategy and attracting A+ leadership talent.
         </p>
         <p>
-          Some things you should <a href={"/writing"}>read</a>
+          Some things to <a href={"/writing"}>read</a>
         </p>
       </Section>
     </>
