@@ -9,7 +9,8 @@ export default function Home() {
         <h2>about</h2>
         <ul>
           <li>
-            Partner at NEA investing in AI Applications at Seed / Series A (
+            Partner at <strong>NEA</strong> investing in AI Applications at Seed
+            / Series A (
             <a href={"https://www.nea.com/team/ann-bordetsky"}>bio</a>)
           </li>
           <li>
@@ -17,8 +18,8 @@ export default function Home() {
             consequential companies
           </li>
           <li>
-            Business leadership roles at Uber and Twitter during hyper growth
-            years{" "}
+            Business leadership roles at <strong>Uber</strong> and{" "}
+            <strong>Twitter</strong> during hyper growth years{" "}
           </li>
           <li>
             Chief Operating Officer at Rival through acquisition to LiveNation /
@@ -35,8 +36,8 @@ export default function Home() {
             />
           </li>
           <li>
-            Berkeley undergrad and Stanford grad school, 4 years in DC / Policy
-            in between
+            <strong>Berkeley</strong> undergrad and <strong>Stanford</strong>{" "}
+            grad school, 4 years in DC / Policy in between
           </li>
         </ul>
       </Section>
