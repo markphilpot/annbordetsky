@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 export default function Nav() {
   const pathname = usePathname();
   return (
-    <nav className={"w-full sticky top-0 z-20 mb-12"}>
+    <nav className={"w-full sticky top-0 z-20 mb-12 bg-background"}>
       <div className={"max-w-4xl mx-auto px-4"}>
         <div className={"grid grid-cols-2 sm:grid-cols-3 py-6"}>
           <div className={"flex justify-start items-center"}>
@@ -22,24 +22,24 @@ export default function Nav() {
               variant={"link"}
               className={cn("!px-2", {
                 "underline underline-offset-4 decoration-2 decoration-primary":
-                  pathname === "/investor",
+                  pathname === "/invest",
               })}
               asChild
             >
-              <Link href={"/investor"} className={"font-scp"}>
-                Investor
+              <Link href={"/invest"} className={"font-mono"}>
+                Invest
               </Link>
             </Button>
             <Button
               variant={"link"}
               className={cn("!px-2", {
                 "underline underline-offset-4 decoration-2 decoration-primary":
-                  pathname === "/builder",
+                  pathname === "/build",
               })}
               asChild
             >
-              <Link href={"/builder"} className={"font-scp"}>
-                Builder
+              <Link href={"/build"} className={"font-mono"}>
+                Build
               </Link>
             </Button>
           </div>

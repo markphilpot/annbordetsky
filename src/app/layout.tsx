@@ -1,22 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Source_Code_Pro } from "next/font/google";
+import { Source_Code_Pro, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { ReactNode } from "react";
 
 const sourceCodePro = Source_Code_Pro({
   variable: "--font-scp",
+  subsets: ["latin"],
+});
+
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
   subsets: ["latin"],
 });
 
@@ -28,12 +24,12 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${sourceCodePro.variable} antialiased`}
+        className={`${sourceCodePro.variable} ${sourceSans.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
@@ -43,7 +39,9 @@ export default function RootLayout({
         >
           <Nav />
           <main
-            className={"font-scp w-full max-w-3xl mx-auto min-h-screen px-4"}
+            className={
+              "font-mono w-full max-w-[60ch] mx-auto min-h-screen px-4"
+            }
           >
             {children}
           </main>
