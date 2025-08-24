@@ -1,10 +1,9 @@
 import Section from "@/components/Section";
 
-export default function Builder() {
+export default function Writing() {
   return (
     <Section>
-      <h2>builder</h2>
-      <p>details to follow</p>
+      <h2>writing</h2>
     </Section>
   );
 }

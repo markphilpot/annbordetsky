@@ -39,9 +39,7 @@ export default function RootLayout({
         >
           <Nav />
           <main
-            className={
-              "font-mono w-full max-w-[60ch] mx-auto min-h-screen px-4"
-            }
+            className={"font-mono w-full max-w-3xl mx-auto min-h-screen px-4"}
           >
             {children}
           </main>

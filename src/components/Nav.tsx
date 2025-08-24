@@ -7,6 +7,31 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
+function NavLink({
+  href,
+  pathname,
+  label,
+}: {
+  href: string;
+  pathname: string;
+  label: string;
+}) {
+  return (
+    <Button
+      variant={"link"}
+      className={cn("!px-2", {
+        "underline underline-offset-4 decoration-2 decoration-primary":
+          pathname === href,
+      })}
+      asChild
+    >
+      <Link href={href} className={"font-mono font-semibold"}>
+        {label}
+      </Link>
+    </Button>
+  );
+}
+
 export default function Nav() {
   const pathname = usePathname();
   return (
@@ -18,30 +43,8 @@ export default function Nav() {
           </div>
 
           <div className={"flex justify-end md:justify-center items-center"}>
-            <Button
-              variant={"link"}
-              className={cn("!px-2", {
-                "underline underline-offset-4 decoration-2 decoration-primary":
-                  pathname === "/invest",
-              })}
-              asChild
-            >
-              <Link href={"/invest"} className={"font-mono font-semibold"}>
-                Invest
-              </Link>
-            </Button>
-            <Button
-              variant={"link"}
-              className={cn("!px-2", {
-                "underline underline-offset-4 decoration-2 decoration-primary":
-                  pathname === "/build",
-              })}
-              asChild
-            >
-              <Link href={"/build"} className={"font-mono font-semibold"}>
-                Build
-              </Link>
-            </Button>
+            <NavLink href={"/"} label={"about"} pathname={pathname} />
+            <NavLink href={"/writing"} label={"writing"} pathname={pathname} />
           </div>
 
           <div className={"hidden md:flex items-center justify-end"}>
