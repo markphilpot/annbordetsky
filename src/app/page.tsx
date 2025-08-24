@@ -119,13 +119,12 @@ export default function Home() {
           <Highlight>before it&apos;s obvious</Highlight>
         </h4>
         <p>
-          Investing at seed and series A, almost always in founders building
-          into emerging, high growth (big if true!) markets with a vision for a
-          category defining application or platform company. Deep conviction in
-          founder market fit, product velocity and correct timing.
-          Post-investment, serve as a catalyst, anything I can do to help reach
-          escape velocity. In this AI market, product velocity x momentum is how
-          you earn the right to figure out everything else.
+          Investing at <em>seed</em> and <em>series A</em>, almost always in
+          founders building in emerging, high growth (big if true) markets with
+          a vision for a category defining application or platform company. Deep
+          conviction in founder market fit, product velocity and correct timing.
+          Post-investment, serve as a catalyst, anything I can do to help the
+          company reach escape velocity. No ask too small.
         </p>
         <h4>
           <Highlight>before it&apos;s inevitable</Highlight>
@@ -137,8 +136,8 @@ export default function Home() {
           execution machine, accelerating GTM and establishing a strong brand
           moat (not just VC ‘heat’). I like to work with founders on what I know
           best, building and scaling business functions that drive growth (GTM,
-          BD / Partnerships, Growth, Mktg), competition chess, compound product
-          strategy and attracting A+ leadership talent.
+          Biz Dev, Partnerships, Growth, Mktg), competition chess game, compound
+          product strategy and attracting A+ leadership talent.
         </p>
         <p>
           Some things to <a href={"/writing"}>read</a>

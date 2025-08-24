@@ -19,6 +19,12 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "ann✺b",
   description: "Ann Bordetsky",
+  authors: [
+    {
+      name: "Ann Bordetsky",
+      url: "https://x.com/annbordetsky",
+    },
+  ],
 };
 
 export default function RootLayout({
