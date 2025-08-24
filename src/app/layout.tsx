@@ -17,7 +17,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "ann·b",
+  title: "ann✺b",
   description: "Ann Bordetsky",
 };
 
