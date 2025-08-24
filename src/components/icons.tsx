@@ -36,7 +36,7 @@ export function Fa6BrandsSquareXTwitter(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-export function NotoV1FamilyManWomanGirlBoy(props) {
+export function NotoV1FamilyManWomanGirlBoy(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

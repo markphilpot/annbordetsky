@@ -1,6 +1,5 @@
 import Section from "@/components/Section";
 import Highlight from "@/components/Highlight";
-import SkewHighlight from "@/components/SkewHighlight";
 import { NotoV1FamilyManWomanGirlBoy } from "@/components/icons";
 
 export default function Home() {

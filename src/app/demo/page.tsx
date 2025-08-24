@@ -1,4 +1,5 @@
 import Section from "@/components/Section";
+import Image from "next/image";
 
 export default function Investor() {
   return (
@@ -89,7 +90,7 @@ export default function Investor() {
         well:
       </p>
       <figure>
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
           alt=""
         />
