@@ -126,14 +126,15 @@ export default function Home() {
           <Highlight>before it’s inevitable</Highlight>
         </h4>
         <p>
-          Partnering founders at the early-growth stage of company building once
-          there’s undeniable PMF, exciting revenue growth and clear inflection
-          point to scale. Inevitability comes from building an exceptional
-          execution machine, accelerating GTM and establishing a strong brand
-          moat (not just VC ‘heat’). I like to work with founders on what I know
-          best, building and scaling business functions that drive growth (GTM,
-          Biz Dev, Partnerships, Growth, Mktg), competition chess game, compound
-          product strategy and attracting A+ leadership talent.
+          Partnering founders at the early-growth stage when there’s undeniable
+          PMF, exciting revenue growth and momentum but it’s high stakes and
+          nothing is inevitable. At this stage, it’s about building the team
+          that will build a durable company. Inevitability comes from
+          exceptional execution, scalable GTM and establishing a brand moat (not
+          just VC ‘heat’). Things that I typically help with are building
+          business functions that drive growth, strategic partnerships,
+          competition chess game, compound product strategy and attracting A+
+          leadership talent.
         </p>
         <p>
           Some things to <a href={"/writing"}>read</a>
