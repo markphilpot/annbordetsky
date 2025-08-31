@@ -8,30 +8,26 @@ export default function Home() {
         <h2>about</h2>
         <ul>
           <li>
-            Partner at <strong>NEA</strong> investing in AI Applications at Seed
-            / Series A (
+            Partner at <strong>NEA</strong> investing in AI Application Stack,
+            Seed / Series A (
             <a href={"https://www.nea.com/team/ann-bordetsky"}>bio</a>)
           </li>
           <li>
-            Prior to VC, startup and growth stage operator roles at
-            consequential companies
+            Prior to venture, 10+ yrs building tech startups as an operator{" "}
           </li>
           <li>
-            Business leadership roles at <strong>Uber</strong> and{" "}
+            Business Development exec at <strong>Uber</strong> and{" "}
             <strong>Twitter</strong> during hyper growth years{" "}
           </li>
-          <li>
-            Chief Operating Officer at Rival through acquisition to LiveNation /
-            Ticketmaster{" "}
-          </li>
+          <li>Chief Operating Officer at Rival (acquired)</li>
           <li>
             Specialize in category creating products and building into
             greenfield markets
           </li>
-          <li>Live happily in SF Bay Area with my family</li>
+          <li>Live happily in SF Bay Area with my family </li>
           <li>
-            <strong>Berkeley</strong> undergrad and <strong>Stanford</strong>{" "}
-            grad school, 4 years in DC / Policy in between
+            <strong>Berkeley</strong> undergrad, <strong>Stanford</strong> grad
+            school, 4 years in DC / Policy in between
           </li>
         </ul>
       </Section>
@@ -40,12 +36,12 @@ export default function Home() {
         <ul>
           <li>Generating fundamental human progress through technology</li>
           <li>
-            Working alongside clever, courageous, creative people on a worthy
-            mission{" "}
+            Working alongside clever, courageous, committed, creative people on
+            a big mission
           </li>
           <li>
             Building iconic and enduring products that touch lives of millions
-            of people daily{" "}
+            of people daily
           </li>
           <li>
             Results. Making things happen in the world and seeing real impact
@@ -71,36 +67,35 @@ export default function Home() {
         <ol>
           <li>
             When you commit, give it 200%. Bring a founder mentality regardless
-            of title or tenure.{" "}
+            of title or tenure.
           </li>
           <li>
             Be an honest broker. Trust and transparency go together, they forge
-            real bonds.{" "}
+            real bonds.
           </li>
           <li>
             Believe in the power of teams. Building high-performing teams is how
-            you keep winning.{" "}
+            you keep winning.
           </li>
           <li>
             Top talent thrives in meritocracies, not mediocracies. Give people
-            room to grow.{" "}
+            room to grow.
           </li>
-          <li>In negotiations, don’t play zero sum games. Grow the pie. </li>
+          <li>In negotiations, don’t play zero sum games. Grow the pie.</li>
           <li>
-            Failure is a feature, not a bug. Bounce back, learn, get
-            better.{" "}
+            Failure is a feature, not a bug. Bounce back, learn, get better.
           </li>
           <li>
             Debate until you understand each other. It’s more valuable than
-            consensus.{" "}
+            consensus.
           </li>
           <li>
             Be present in conversations, especially 1-1s. Engage in active
-            listening.{" "}
+            listening.
           </li>
           <li>
             Emotional self-regulation is an essential skill in leadership. Do
-            the work on yourself.{" "}
+            the work on yourself.
           </li>
           <li>
             Say thank you and tell people you appreciate them. We’re not made of
@@ -115,26 +110,40 @@ export default function Home() {
         </h4>
         <p>
           Investing at seed and series A, primarily in founders building in
-          emerging, high growth (big if true) markets with a vision for a
-          category defining application or platform company. Deep conviction in
-          founder market fit, product velocity, technical edge and correct
-          timing on the idea. Post-investment, focus on helping the founder
-          reach escape velocity (via network, intros, assists, visibility). I
-          also help technical founders find their key early business hires.
+          emerging, high growth (big if true) markets with a clear idea for a
+          category defining product or platform. Led by deep conviction in the
+          founder, product velocity, user love and correct timing on the idea. I
+          work with founders on what it takes to break out in the current AI
+          market, provide high-value assists through intros and visibility, and
+          partner technical founders on building business teams.
         </p>
+        <ul>
+          <li>
+            Avoid stale playbooks, guide on what it takes to break out in
+            current market
+          </li>
+          <li>
+            Give founders leverage via intros, assists, visibility in service of
+            escape velocity
+          </li>
+          <li>
+            Help technical founding teams find their 10x early business hires
+          </li>
+        </ul>
         <h4>
           <Highlight>before it’s inevitable</Highlight>
         </h4>
         <p>
           Partnering founders at the early-growth stage when there’s undeniable
-          PMF, exciting revenue growth and momentum but it’s high stakes and
-          nothing is inevitable. At this stage, it’s about building the team
-          that will build a durable company. Inevitability comes from
-          exceptional execution, scalable GTM and establishing a brand moat (not
-          just VC ‘heat’). Things that I typically help with are building
-          business functions that drive growth, strategic partnerships,
-          competition chess game, compound product strategy and attracting A+
-          leadership talent.
+          market pull, exciting revenue growth, strong fundamentals but the
+          company isn’t inevitable yet and competition is fierce. At this stage,
+          it’s about dominating the category and building the team that will
+          build a durable company. Inevitability comes from exceptional
+          execution, scalable distribution and GTM and establishing a brand moat
+          (not just VC ‘heat’). Ways that I typically assist founders are
+          building business functions that drive growth, strategic partnerships
+          and GTM tactics, competition chess game, compound product strategy and
+          attracting A+ leadership talent.
         </p>
         <p>
           Some things to <a href={"/writing"}>read</a>
