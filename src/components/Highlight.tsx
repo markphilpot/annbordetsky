@@ -10,7 +10,7 @@ export default function Highlight({
   as: Component = "span",
 }: HighlightProps) {
   return (
-    <Component className={"bg-accent pr-2 rounded font-bold"}>
+    <Component className={"bg-accent px-2 -ml-2 rounded font-bold"}>
       {children}
     </Component>
   );

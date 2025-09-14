@@ -108,43 +108,37 @@ export default function Home() {
         <h4>
           <Highlight>before it’s obvious</Highlight>
         </h4>
-        <p>
-          Investing at seed and series A, primarily in founders building in
-          emerging, high growth (big if true) markets with a clear idea for a
-          category defining product or platform. Led by deep conviction in the
-          founder, product velocity, user love and correct timing on the idea. I
-          work with founders on what it takes to break out in the current AI
-          market, provide high-value assists through intros and visibility, and
-          partner technical founders on building business teams.
-        </p>
+        <p>Investing in exponential ideas at earliest stages</p>
         <ul>
+          <li>First checks at inception, seed, series A</li>
           <li>
-            Avoid stale playbooks, guide on what it takes to break out in
-            current market
+            Led by deep conviction in founder, product velocity, correct timing
           </li>
-          <li>
-            Give founders leverage via intros, assists, visibility in service of
-            escape velocity
-          </li>
-          <li>
-            Help technical founding teams find their 10x early business hires
-          </li>
+          <li>Founders building in emerging, near future markets </li>
+          <li>First principles, high agency, relentless teams</li>
+        </ul>
+        <p>Provide strategic assists on three fronts</p>
+        <ul>
+          <li>Technical founders finding 10x first business hires</li>
+          <li>New distribution playbooks to stand out as category leader </li>
+          <li>Developing early partnerships and partner ecosystem</li>
         </ul>
         <h4>
           <Highlight>before it’s inevitable</Highlight>
         </h4>
         <p>
-          Partnering founders at the early-growth stage when there’s undeniable
-          market pull, exciting revenue growth, strong fundamentals but the
-          company isn’t inevitable yet and competition is fierce. At this stage,
-          it’s about dominating the category and building the team that will
-          build a durable company. Inevitability comes from exceptional
-          execution, scalable distribution and GTM and establishing a brand moat
-          (not just VC ‘heat’). Ways that I typically assist founders are
-          building business functions that drive growth, strategic partnerships
-          and GTM tactics, competition chess game, compound product strategy and
-          attracting A+ leadership talent.
+          Selectively partnering founders at the early growth stage, when there
+          is undeniable market pull and exciting product growth but the company
+          isn’t inevitable yet. At this stage, it’s about dominating the
+          category and building the team that will build a durable company.
+          Inevitability comes from exceptional execution, scalable go-to-market
+          and establishing a brand moat (not just VC heat). Assist founders on:
         </p>
+        <ul>
+          <li>Building business functions that drive growth </li>
+          <li>Competition chess game and alliances</li>
+          <li>Compound product strategy</li>
+        </ul>
         <p>
           Some things to <a href={"/writing"}>read</a>
         </p>
