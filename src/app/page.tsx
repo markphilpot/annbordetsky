@@ -8,9 +8,8 @@ export default function Home() {
         <h2>about</h2>
         <ul>
           <li>
-            Partner at <strong>NEA</strong> investing in AI Application Stack,
-            Seed / Series A (
-            <a href={"https://www.nea.com/team/ann-bordetsky"}>bio</a>)
+            Partner at <a href="https://www.nea.com">NEA</a> investing in AI Application Stack,
+            Seed / Series A
           </li>
           <li>
             Prior to venture, 10+ yrs building tech startups as an operator{" "}
