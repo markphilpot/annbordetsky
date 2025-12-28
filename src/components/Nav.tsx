@@ -37,17 +37,19 @@ export default function Nav() {
   return (
     <nav className={"w-full sticky top-0 z-20 mb-12 bg-background"}>
       <div className={"max-w-4xl mx-auto px-4"}>
-        <div className={"grid grid-cols-2 md:grid-cols-3 py-6"}>
-          <div className={"flex justify-start items-center"}>
+        <div
+          className={"flex flex-col justify-center md:grid md:grid-cols-2 py-6"}
+        >
+          <div className={"flex justify-center md:justify-start items-center"}>
             <Logo />
           </div>
 
-          <div className={"flex justify-end md:justify-center items-center"}>
-            <NavLink href={"/"} label={"about"} pathname={pathname} />
-            <NavLink href={"/writing"} label={"writing"} pathname={pathname} />
-          </div>
+          {/*<div className={"flex justify-center md:justify-center items-center"}>*/}
+          {/*  <NavLink href={"/"} label={"about"} pathname={pathname} />*/}
+          {/*  <NavLink href={"/writing"} label={"writing"} pathname={pathname} />*/}
+          {/*</div>*/}
 
-          <div className={"hidden md:flex items-center justify-end"}>
+          <div className={"hidden md:flex md:items-center md:justify-end"}>
             <ModeToggle />
           </div>
         </div>

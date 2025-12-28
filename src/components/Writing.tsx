@@ -117,7 +117,7 @@ export default function Writing() {
   return (
     <>
       <Section>
-        <h2>writing</h2>
+        <h3>Writing</h3>
         <div className={"grid grid-cols-4"}>
           {writing.map(([date, title, link]) => (
             <Fragment key={title}>
@@ -130,7 +130,7 @@ export default function Writing() {
         </div>
       </Section>
       <Section>
-        <h2>talks & podcasts</h2>
+        <h3>Talks</h3>
         <div className={"grid grid-cols-4"}>
           {talks.map(([date, title, link]) => (
             <Fragment key={title}>
