@@ -3,93 +3,93 @@ import { Fragment } from "react";
 
 const writing = [
   [
-    "2026-01-06",
+    "Jan 2026",
     "10 Themes for 2026",
-    "https://annbordetsky.substack.com/p/10-themes-for-2026"
+    "https://annbordetsky.substack.com/p/10-themes-for-2026",
   ],
   [
-    "2025-08-20",
+    "Aug 2025",
     "Bluefish: The AI Marketing Platform for the Agentic Era",
     "https://www.nea.com/blog/bluefish-the-ai-marketing-platform-for-the-agentic-era",
   ],
   [
-    "2025-08-05",
+    "Aug 2025",
     "August: Configurable Legal AI",
     "https://www.nea.com/blog/august-high-impact-configurable-legal-ai-for-midsize-firms",
   ],
   [
-    "2025-07-31",
+    "July 2025",
     "Call for 100x Ideas: AI investment themes",
     "https://www.nea.com/blog/a-call-for-100x-ideas",
   ],
   [
-    "2025-06-30",
+    "June 2025",
     "Context is the Currency in Consumer AI",
     "https://www.nea.com/blog/context-in-consumer-ai",
   ],
   [
-    "2025-04-25",
+    "April 2025",
     "Glacier: How AI and Robotics are Closing the Loop",
     "https://www.nea.com/blog/glacier-qa-how-ai-robotics-are-closing-the-loop",
   ],
   [
-    "2025-02-05",
+    "April 2025",
     "Tomorrow’s Titans: Vertical AI",
     "https://www.nea.com/blog/tomorrows-titans-vertical-ai",
   ],
   [
-    "2025-01-30",
+    "Jan 2025",
     "ElevenLabs: AI’s Natural Interface",
     "https://www.nea.com/blog/elevenlabs-ais-natural-interface",
   ],
   [
-    "2025-01-14",
+    "Jan 2025",
     "Consumer AI: Personalized Intelligence",
     "https://www.nea.com/blog/personalized-intelligence",
   ],
   [
-    "2024-11-04",
+    "Nov 2024",
     "Perplexity: How AI is revolutionizing search",
     "https://www.nea.com/blog/perplexity-qa-revolutionizing-search",
   ],
   [
-    "2024-06-13",
+    "June 2024",
     "AI in Consumer: Mental Health",
     "https://www.nea.com/blog/the-current-6-consumer-bottlenecks-in-mental-health",
   ],
   [
-    "2024-06-06",
+    "June 2024",
     "Rewriting the Startup Playbook for the Age of AI",
     "https://www.nea.com/blog/4-trends-for-ai-startups-and-generative-ai-companies",
   ],
   [
-    "2024-05-03",
+    "May 2024",
     "AI in Consumer: Generative Music",
     "https://www.nea.com/blog/future-of-ai-generated-music-industry-artists-fans",
   ],
 
   [
-    "2024-03-28",
+    "April 2024",
     "Investing in Perplexity AI: The End of Traditional Search",
     "https://www.nea.com/blog/our-investment-in-perplexity-ai-answer-engines-and-the-end-of-traditional-search",
   ],
   [
-    "2024-02-14",
+    "Feb 2024",
     "Creativity is the AI Killer Use Case",
     "https://www.nea.com/blog/creative-ai-use-case",
   ],
   [
-    "2024-01-22",
+    "Jan 2024",
     "The App Layer Strikes Back",
     "https://x.com/annbordetsky/status/1749453246798987627",
   ],
   [
-    "2023-07-05",
+    "July 2023",
     "Future of Consumer Social",
     "https://www.nea.com/blog/8-hypotheses-on-the-future-of-consumer-social",
   ],
   [
-    "2023-05-04",
+    "May 2023",
     "The Marketplace Building Playbook",
     "https://www.nea.com/blog/the-marketplace-building-playbook",
   ],
