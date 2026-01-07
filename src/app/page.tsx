@@ -3,11 +3,11 @@ import Writing from "@/components/Writing";
 import { Fragment } from "react";
 
 const investments = [
+  ["Wabi", "https://wabi.ai"],
   ["Bluefish", "https://bluefishai.com"],
   ["TwelveLabs", "https://twelvelabs.io"],
   ["Perplexity", "https://www.perplexity.ai"],
   ["ElevenLabs", "https://elevenlabs.io"],
-  ["Wabi", "https://wabi.ai"],
   ["Juicebox", "https://juicebox.ai"],
   ["Casa", "https://my.casa"],
   ["August", "https://august.law"],
@@ -23,18 +23,32 @@ export default function Home() {
     <>
       <Section>
         <p>
-          I invest in early-stage tech startups building AI applications,
-          enabling AI infrastructure, consumer AI and insanely talented
-          technical teams building at the frontier. I typically invest at the
-          Seed / Series A and selectively at early growth. There is so much more
-          for us to do to make AI truly useful in our everyday lives and work,
-          to unleash human creativity at scale, solve intractable problems with
-          the help of intelligent AI systems and discover what else we can
-          build. I love working with insightful, opinionated founders who have a
-          differentiated take on the future.
+          I invest in AI applications and enabling infrastructure at the
+          earliest stages (before it’s obvious) and selectively at early growth
+          (before it’s inevitable). Often in categories that are so new they
+          don’t have a name yet and in founders who are{" "}
+          <em>innate world builders.</em>
         </p>
         <p>
-          Current investments:{" "}
+          World builders construct a new reality for us to inhabit, how
+          something ought to work. It usually comes with an insightful and
+          opinionated take based on personal pain points or deep domain
+          knowledge. World builders are high-agency visionaries and systems
+          thinkers who can think forward and backward to solve problems. They
+          have the potential to build empires because they create thriving
+          ecosystems through their products, companies and partnerships.
+        </p>
+        <p>
+          Each world, each startup is an infinite game the founder wants to keep
+          playing.
+        </p>
+        <p>
+          When I’m lucky enough to be a part of the journey, my goal is to be a
+          helpful business partner to the founder and their team. Responsive,
+          collaborative and providing strategic assists.
+        </p>
+        <p>
+          Select recent investments:{" "}
           {investments.map(([name, link]) => (
             <Fragment key={name}>
               <a href={link}>{name}</a>,{" "}
@@ -42,23 +56,10 @@ export default function Home() {
           ))}{" "}
           and other AI startups in stealth.{" "}
         </p>
-        <p>The best way to reach me is to email ann at 10e10 dot capital.</p>
         <p>
-          It’s a privilege to work with talented startup teams that live in
-          relentless pursuit of the mission and even more so to be a tiny part
-          of an enduring company. I felt that in my own startup experiences,
-          especially at iconic platform companies like Uber and Twitter. We get
-          to write a tiny bit of history when we’re part of something bigger
-          than ourselves that shapes the world.
-        </p>
-        <p>
-          I’ve worn many hats working with exceptional founders – partner at a
-          top tier multi-stage VC, board member, operator and scaling exec,
-          angel investor, advisor. If I can pay forward one lesson it’s that
-          everything changes constantly but relationships endure. Work with the
-          smartest optimists you know, focus on winning as a team not titles or
-          hierarchy, care about people and be a leader that knows how to listen.
-          Startups are a fundamentally human endeavor.
+          You can find me on <a href={"https://x.com/annbordetsky"}>X</a> and on{" "}
+          <a href={"https://www.linkedin.com/in/annbordetsky/"}>LinkedIn</a>.
+          Warm intros preferred.
         </p>
       </Section>
       <Section>
