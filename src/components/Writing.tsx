@@ -13,7 +13,7 @@ const writing = [
     "https://www.nea.com/blog/bluefish-the-ai-marketing-platform-for-the-agentic-era",
   ],
   [
-    "2025-08–05",
+    "2025-08-05",
     "August: Configurable Legal AI",
     "https://www.nea.com/blog/august-high-impact-configurable-legal-ai-for-midsize-firms",
   ],
