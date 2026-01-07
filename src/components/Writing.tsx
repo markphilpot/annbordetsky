@@ -3,6 +3,11 @@ import { Fragment } from "react";
 
 const writing = [
   [
+    "2026-01-06",
+    "10 Themes for 2026",
+    "https://annbordetsky.substack.com/p/10-themes-for-2026"
+  ],
+  [
     "2025-08-20",
     "Bluefish: The AI Marketing Platform for the Agentic Era",
     "https://www.nea.com/blog/bluefish-the-ai-marketing-platform-for-the-agentic-era",
